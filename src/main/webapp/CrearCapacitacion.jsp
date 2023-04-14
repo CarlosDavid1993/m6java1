@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Crear Capacitacion</title>
 </head>
+<h1>Crear Capacitacion</h1>
 <body>
-
+		<form action="SvInicio" method="get">
+			<input type="submit" name="button1" value="Volver"> 
+		</form>
 </body>
 </html>

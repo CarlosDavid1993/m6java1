@@ -23,9 +23,13 @@
 		datos que tenemos pa' ti y dale con todo, pa' que estés pillo y no te
 		pase na' malo. ¡Eso!
 	</p>
-	
-    <p><a href="CrearCapacitacion.jsp">Capacitaciones</a></p>
-    <p><a href="Contacto.jsp">Contacto</a></p>
+
+		<form action="SvInicio" method="post">
+			<input type="submit" name="button1" value="Contacto"> <input
+				type="submit" name="button2" value="Crear Capacitacion">
+		</form>
+<!-- 		<p><a href="CrearCapacitacion.jsp">Capacitaciones</a></p>
+    <p><a href="Contacto.jsp">Contacto</a></p> -->
 </div>
 </body>
 </html>
