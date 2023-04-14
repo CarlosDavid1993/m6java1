@@ -43,7 +43,7 @@ public class SvInicio extends HttpServlet {
 		// TODO Auto-generated method stub
 //		doGet(request, response);
 		if (request.getParameter("button1") != null) {
-			RequestDispatcher dispatcher = request.getRequestDispatcher("SvContacto.jsp");
+			RequestDispatcher dispatcher = request.getRequestDispatcher("SvContacto");
 			dispatcher.forward(request, response);
 		} else {
 			RequestDispatcher dispatcher = request.getRequestDispatcher("SvCrearCapacitacion");
