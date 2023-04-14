@@ -16,6 +16,12 @@
   	<description></description>
   	<servlet-class>controlador.SvContacto</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>SvCapacitacion</servlet-name>
+  	<display-name>SvCapacitacion</display-name>
+  	<description></description>
+  	<servlet-class>controlador.SvCapacitacion</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>SvInicio</servlet-name>
   	<url-pattern>/SvInicio</url-pattern>
@@ -23,5 +29,9 @@
   <servlet-mapping>
   	<servlet-name>SvContacto</servlet-name>
   	<url-pattern>/SvContacto</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SvCapacitacion</servlet-name>
+  	<url-pattern>/SvCapacitacion</url-pattern>
   </servlet-mapping>
 </web-app>

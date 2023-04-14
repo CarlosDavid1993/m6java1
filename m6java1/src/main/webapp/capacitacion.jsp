@@ -1,18 +1,18 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        	<title>Indice</title>
+        	<title>Capacitacion</title>
     </head>
     
     <body class="container">
-		<form action="SvInicio" method="POST">
+		<form action="SvCapacitacion" method="POST">
 			<input type="submit" name="button1" value="Inicio"> 
 			<input type="submit" name="button2" value="Contacto"> 
 			<input type="submit" name="button3" value="Capacitacion"> 
 		</form>
-	<h2>Pagina de Inicio</h2>
+	<h2>Capacitacion</h2>
 	</body>
 </html>
