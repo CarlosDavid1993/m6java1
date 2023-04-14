@@ -29,8 +29,8 @@ public class SvInicio extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-		
+		request.getRequestDispatcher("index.jsp").forward(request, response);
+			
 	}
 
 	/**
@@ -39,20 +39,20 @@ public class SvInicio extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		System.out.println(request.getParameter("button1"));
-		
-		if (request.getParameter("button1").equals("Inicio")) {
-			RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
-			dispatcher.forward(request, response);
-		}
-		else if (request.getParameter("button2").equals("Contacto")) {
-			RequestDispatcher dispatcher = request.getRequestDispatcher("contacto.jsp");
-			dispatcher.forward(request, response);
-		}
-		else if (request.getParameter("button3").equals("Capacitacion")) {
-			RequestDispatcher dispatcher = request.getRequestDispatcher("capacitacion.jsp");
-			dispatcher.forward(request, response);
+		if ("Inicio".equals(request.getParameter("button1"))) {
+		    RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
+		    dispatcher.forward(request, response);
+		    
+		} else if ("Contacto".equals(request.getParameter("button2"))) {
+		    RequestDispatcher dispatcher = request.getRequestDispatcher("contacto.jsp");
+		    dispatcher.forward(request, response);
+		    
+		} else if ("Capacitacion".equals(request.getParameter("button3"))) {
+		    RequestDispatcher dispatcher = request.getRequestDispatcher("capacitacion.jsp");
+		    dispatcher.forward(request, response);
+		    
+		} else {
+		    
 		}
 
 	}
