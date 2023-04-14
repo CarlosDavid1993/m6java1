@@ -42,12 +42,12 @@ public class SvInicio extends HttpServlet {
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 //		doGet(request, response);
-		if (request.getParameter("button1") != null) {
-			RequestDispatcher dispatcher = request.getRequestDispatcher("SvContacto");
-			dispatcher.forward(request, response);
-		} else {
-			RequestDispatcher dispatcher = request.getRequestDispatcher("SvCrearCapacitacion");
-			dispatcher.forward(request, response);
-		}
+//		if (request.getParameter("button1") != null) {
+//			RequestDispatcher dispatcher = request.getRequestDispatcher("SvContacto");
+//			dispatcher.forward(request, response);
+//		} else if (request.getParameter("button2") != null){
+//			RequestDispatcher dispatcher = request.getRequestDispatcher("SvCrearCapacitacion");
+//			dispatcher.forward(request, response);
+//		}
 	}
 }

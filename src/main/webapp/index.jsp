@@ -24,12 +24,13 @@
 		pase na' malo. ¡Eso!
 	</p>
 
-		<form action="SvInicio" method="post">
-			<input type="submit" name="button1" value="Contacto"> <input
-				type="submit" name="button2" value="Crear Capacitacion">
-		</form>
-<!-- 		<p><a href="CrearCapacitacion.jsp">Capacitaciones</a></p>
-    <p><a href="Contacto.jsp">Contacto</a></p> -->
+<!-- 		<form action="SvInicio" method="post">
+			<input type="submit" name="button1" value="hola">
+			<input type="submit" name="button2" value="Crear Capacitacion">
+		</form> -->
+        <a href="index.jsp">Inicio</a>
+        <a href="CrearCapacitacion.jsp">Capacitaciones</a>
+        <a href="Contacto.jsp">Contacto</a>
 </div>
 </body>
 </html>
