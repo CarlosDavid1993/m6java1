@@ -23,8 +23,10 @@
         <input type="submit" value="Crear">
         
 </form>
-        <a href="index.jsp">Inicio</a>
-        <a href="CrearCapacitacion.jsp">Capacitaciones</a>
-        <a href="Contacto.jsp">Contacto</a>
+	<br>
+	<a href="index.jsp">Volver</a>
+	<br>
+	<a href="CrearCapacitacion.jsp">Capacitaciones</a>
+	<a href="Contacto.jsp">Contacto</a>
 </body>
 </html>
